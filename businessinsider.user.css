@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Business Inside Depaywall - 3/15/2020, 1:29:25 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes the paywall and reenables scroll
+@author         squinlan
+==/UserStyle== */
+
+@-moz-document domain("businessinsider.com") {
+  .tp-backgroup.tp-active {
+    display: none !important;
+  }
+  
+  .tp-model-open {
+    overflow: inherit !important;
+  }
+}
